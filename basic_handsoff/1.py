@@ -11,7 +11,7 @@ from agents import (
 from dotenv import load_dotenv
 
 # 🌿 Load environment variables
-load_dotenv()
+load_dotenv("../.env")
 # set_tracing_disabled(disabled=True)
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
