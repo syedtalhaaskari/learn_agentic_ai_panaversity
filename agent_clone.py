@@ -3,11 +3,11 @@
 
 import os
 from dotenv import load_dotenv
+from openai import AsyncOpenAI
 from agents import (
     Agent,
     Runner,
     OpenAIChatCompletionsModel,
-    AsyncOpenAI,
     set_tracing_disabled,
     ModelSettings,
     function_tool,
